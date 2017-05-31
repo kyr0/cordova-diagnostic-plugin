@@ -15,6 +15,8 @@
     <repo>https://github.com/dpa99c/cordova-diagnostic-plugin.git</repo>
     <issue>https://github.com/dpa99c/cordova-diagnostic-plugin/issues</issue>
 
+
+
     <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
@@ -91,8 +93,9 @@
             </feature>
         </config-file>
 
+
         <framework src="com.android.support:support-v4:+" />
-        <framework src="com.android.support:appcompat-v7:+" />
+        <framework src="com.android.support:appcompat-v7:23+" />
 
         <js-module src="www/android/diagnostic.js" name="Diagnostic">
             <clobbers target="cordova.plugins.diagnostic" />
